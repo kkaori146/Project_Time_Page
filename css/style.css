@@ -22,3 +22,13 @@ color: #FFF;
 text-align: center;
 font-style: italic;
 }
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}

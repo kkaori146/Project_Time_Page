@@ -2,9 +2,9 @@ function carregar() {
 var msg = window.document.getElementById('msg')
 var img = window.document.getElementById('imagem')
 var data = new Date()
-//var hora = data.getHours()
+var hora = data.getHours()
 
-var hora = 19
+//var hora = 19  //COMANDO FORÇANDO A HORA PARA TESTE
 
 msg.innerHTML = `Agora são ${hora} horas.`
 
